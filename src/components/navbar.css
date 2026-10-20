@@ -1,0 +1,46 @@
+nav ul li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(245, 190, 227);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(216, 82, 138);
+    color: white;
+    width: 40vw;
+}
+
+.logo {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media (max-width: 1250px) {
+    nav {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 785px) {
+    nav {
+        width: 95vw;
+    }
+}

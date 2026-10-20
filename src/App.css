@@ -1,0 +1,100 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  width: 40vw;
+  height: 28px;
+}
+
+button {
+  width: 120px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: rgb(235, 153, 194);
+  border: solid rgb(235, 153, 194);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  width: 40vw;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2,
+h1 {
+  text-align: center;
+  color: rgb(216, 82, 138);
+  ;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+}
+
+div .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(238, 137, 188);
+  border: solid rgb(238, 137, 188);
+}
+
+#addNote {
+  color: rgb(159, 157, 157);
+}
+
+@media (max-width: 1250px) {
+  .cardcontainer {
+    max-width: 75vw;
+  }
+
+  textarea {
+    width: 75vw;
+  }
+
+  input {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 785px) {
+  .cardcontainer {
+    max-width: 95vw;
+  }
+
+  textarea {
+    width: 95vw;
+  }
+
+  input {
+    width: 95vw;
+  }
+}
